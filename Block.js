@@ -21,7 +21,7 @@ class Block{
         World.remove(world,this.body);
         push()
         this.visibility= this.visibility-5;
-        tint(120,this.visibility);
+        tint(255,this.visibility);
         image(this.image,pos.x,pos.y,this.width, this.height);
         pop()
       }
