@@ -8,8 +8,8 @@ class Block{
       this.image = loadImage("block.png");
       this.width = width;
       this.height = height;
-      this.visibility=255;
       World.add(world, this.body);
+     this.visibility=255;
     }
     display(){
       var pos= this.body.position;
